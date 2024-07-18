@@ -5,6 +5,7 @@ type Lang = import('@mglazar7-prog/spec').Language;
 
 interface TSMLReactConfig {
   cache: boolean;
+  calendar_enabled: boolean;
   columns: string[];
   conference_providers: Record<string, string>;
   defaults: {
